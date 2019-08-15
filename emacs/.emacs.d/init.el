@@ -13,3 +13,10 @@
 (load "init-golang")
 
 ;;; init.el ends here
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ '(package-selected-packages (quote (go-mode markdown-mode ag))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ )

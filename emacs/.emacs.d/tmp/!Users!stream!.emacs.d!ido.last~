@@ -2,11 +2,14 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/stream/.dotfiles/emacs/.emacs.d/" . "init/")
  ("/Users/stream/" . "org/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/stream/.dotfiles/emacs/.emacs.d/init/"
+ "/Users/stream/.dotfiles/emacs/.emacs.d/"
  "/Users/stream/.emacs.d/"
  "/Users/stream/.dotfiles/zsh/"
  "/Users/stream/"
@@ -16,19 +19,25 @@
 ;; ----- ido-work-file-list -----
 (
  "init-packages.el"
+ "init.el"
+ "init-general.el"
  "init-golang.el"
  "init-flycheck.el"
- "init-general.el"
  ".zsh_env.sh"
  ".zsh_envs.sh"
  ".zsh_theme.sh"
  ".zsh_tmux.sh"
  ".zsh_alias.sh"
- "twitch.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/stream/go/src/github.com/hbd/hnotif/" (23892 54791 296960 147000) "main.go" ".git/" "README.md" "../" "./")
+
+ ("/Users/stream/.dotfiles/emacs/.emacs.d/" (23892 54451 735841 633000) "tmp/" "elpa/" "init.el" "auto-save-list/" "ido.last" "init/" "../" "./")
+
+ ("/Users/stream/.dotfiles/emacs/.emacs.d/init/" (23892 54418 170622 317000) "init-golang.el" "init-general.el" "init-packages.el" "init-flycheck.el" "../" "./")
+
  ("/Users/stream/.emacs.d/" (23892 53368 603550 717000) "init-golang.el" "tmp/" "elpa/" "init.el" "auto-save-list/" "init-general.el" "init-packages.el" "init-flycheck.el" "ido.last" "../" "./")
 
  ("/Users/stream/" (23892 52886 427833 494000) ".viminfo" ".bash_history" ".gitconfig" "Downloads/" ".histfile" ".zsh_alias.sh" "Documents/" ".zcompdump" ".zsh_theme.sh" ".Trash/" "Applications/" "Movies/" ".ssh/" "Public/" ".zsh_env.sh" ".emacs.d/" ".dotfiles/" ".lesshst" "Library/" "Desktop/" "Pictures/" "org/" ".zshrc" ".bashrc" ".CFUserTextEncoding" ".tmux.conf" ".DS_Store" "go/" "iterm/" ".zsh_tmux.sh" "Music/" ".config/" "../" "./")

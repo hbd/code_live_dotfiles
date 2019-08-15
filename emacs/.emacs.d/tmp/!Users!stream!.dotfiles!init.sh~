@@ -1,7 +1,0 @@
-# !/bin/bash
-
-main() {
-    go get golang.org/x/tools/cmd/...
-}
-
-main

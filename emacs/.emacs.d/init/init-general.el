@@ -28,3 +28,9 @@
 (global-set-key [mouse-5] (lambda ()
                             (interactive)
                             (scroll-up 5)))
+
+;; Enforce end of file new line.
+(setq require-final-newline 1 mode-require-final-newline 1)
+
+;; Show trailing whitespaces.
+(setq-default show-trailing-whitespace t)

@@ -1,3 +1,3 @@
-alias l='ls -al'
+alias l='ls -alG'
 
 # Use emacsclient/server.

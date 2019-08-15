@@ -13,17 +13,23 @@
 (setq package-list
       '(
 	;; Major modes.
-        markdown-mode
 	go-mode
+        markdown-mode
+
+	;; Minor modes.
+	lsp-mode
 
 	;; Golang.
+	flycheck-golangci-lint
         go-guru
         go-rename
-	flycheck-golangci-lint
 
 	;; Utilities.
 	ag ;; Simple and quick searching.
+	company
+	company-lsp
 	flycheck
+	lsp-ui
 	))
 
 ;; Install the missing packages.
@@ -32,12 +38,5 @@
     (package-install package)))
 
 (provide 'init-packages)
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- '(package-selected-packages (quote (go-mode markdown-mode ag))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- )
 
 ;;; End of package initialization.
