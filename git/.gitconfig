@@ -1,0 +1,8 @@
+[alias]
+	st = status
+	cm = checkout master
+	co = checkout
+	ac = commit -p -m
+[user]
+	name = "prj2501"
+	email = ""
