@@ -35,3 +35,6 @@ source ~/.zsh_tmux.sh
 
 # Theme.
 source ~/.zsh_theme.sh
+
+# Env vars.
+source ~/.zsh_env.sh
