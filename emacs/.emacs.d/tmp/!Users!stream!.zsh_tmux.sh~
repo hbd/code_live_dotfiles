@@ -1,0 +1,5 @@
+set -x
+if [ -z "$TMUX" ]; then
+    tmux attach
+fi
+set +x

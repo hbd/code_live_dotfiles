@@ -1,0 +1,8 @@
+;;; emacs config ;;;
+
+(add-to-list 'load-path "~/.emacs.d/init")
+
+(load "init-packages")
+(load "init-general")
+(load "init-flycheck")
+(load "init-golang")
