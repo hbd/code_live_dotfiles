@@ -18,6 +18,7 @@
 
 	;; Minor modes.
 	lsp-mode
+	multiple-cursors
 
 	;; Golang.
 	flycheck-golangci-lint
