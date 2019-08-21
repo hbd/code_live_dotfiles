@@ -2,4 +2,4 @@ tmp/
 elpa/
 ido.last
 auto-save-list
-
+.mc-lists.el

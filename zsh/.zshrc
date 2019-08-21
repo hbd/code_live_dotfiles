@@ -27,6 +27,9 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 setopt    sharehistory      # Share history across terminals
 setopt    incappendhistory  # Immediately append to the history file, not just when a term is killed
 
+# Env vars.
+source ~/.zsh_env.sh
+
 # Aliases.
 source ~/.zsh_alias.sh
 
@@ -35,6 +38,3 @@ source ~/.zsh_tmux.sh
 
 # Theme.
 source ~/.zsh_theme.sh
-
-# Env vars.
-source ~/.zsh_env.sh

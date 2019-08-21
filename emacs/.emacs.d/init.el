@@ -9,6 +9,7 @@
 
 (load "init-packages")
 (load "init-general")
+(load "init-multiple-cursors")
 (load "init-flycheck")
 (load "init-golang")
 
